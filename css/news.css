@@ -58,3 +58,23 @@
     font: 14px/1.3 "arial";
     color: #777;
 }
+@media screen and (max-width:1179px) {
+    #news{
+        padding: 100px 20px;
+    }
+    #news .inner{
+        width: 100%;
+    }
+    #news .inner .wrap article{
+        width: 49%;
+        margin-right: 2%;
+    }
+    /* 짝수 2n */
+    #news .inner .wrap article:nth-of-type(2n){
+        margin-right: 0;
+    }
+    #news .inner .wrap article .pic{
+        height: 20vh;
+    }
+    
+}

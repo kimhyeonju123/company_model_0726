@@ -45,3 +45,26 @@ figure .inner a:hover{
     background-color: rgba(255, 255, 255, 0.6);
     color: #555;
 }
+@media screen and (max-width:1179px) {
+    figure{
+        height: calc(100vh - 100px);
+        background-image: url(../img/visual1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    figure video{
+        display: none;
+    }
+    figure .inner{
+        width: 100%;
+        padding: 0 20px;
+    }
+    figure .inner h2{
+        font: normal 14vh/1 "arial";
+        /* 고정픽셀은 부담스러워서 vh로 */
+    }
+    figure .inner a{
+        width: 100%;
+    }
+}
