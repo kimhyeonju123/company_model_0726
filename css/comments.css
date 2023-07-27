@@ -49,3 +49,12 @@
 #comments .inner ul li:hover span{
     color: #eee;
 }
+@media screen and (max-width:1179px) {
+    #comments{
+        padding: 100px 20px;
+    }
+    #comments .inner{
+        width: 100%;
+    }
+    
+}

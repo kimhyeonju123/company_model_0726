@@ -68,13 +68,19 @@
     #news .inner .wrap article{
         width: 49%;
         margin-right: 2%;
+        margin-bottom: 20px;
     }
     /* 짝수 2n */
     #news .inner .wrap article:nth-of-type(2n){
         margin-right: 0;
     }
     #news .inner .wrap article .pic{
-        height: 20vh;
+        height: 30vh;
     }
     
+}
+@media screen and (max-width:450px) {
+    #news .inner .wrap article{
+        width: 100%;
+    }
 }

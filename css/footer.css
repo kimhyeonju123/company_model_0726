@@ -45,3 +45,24 @@ footer .inner p{
     width: 100%;
     font: 12px/1 "arial"; color: #777;
 }
+
+@media screen  and (max-width:1179px) {
+    footer{
+        padding: 80px 20px;
+    }
+    footer .inner{
+        width: 100%;
+    }
+    footer .inner ul{
+        float: auto;
+    }
+}
+@media screen and (max-width:450px) {
+    footer .inner h1{
+        font: bold 14px/1 "arial";
+        margin-bottom: 20px;
+    }
+    footer .inner ul{
+        float: left;
+    }
+}

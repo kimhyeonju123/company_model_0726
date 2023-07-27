@@ -18,3 +18,7 @@ a{
 계속 해제해주기 귀찮으니까
 모든 wrap에 float해제하기 
 */
+
+body{
+    overflow-x: hidden;
+}

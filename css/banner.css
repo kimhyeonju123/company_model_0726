@@ -32,3 +32,11 @@
     color: #bbb;
     text-align: center;
 }
+@media screen and (max-width:1179px) {
+    #banner{
+        padding: 100px 20px;
+    }
+    #banner .inner{
+        width: 100%;
+    }
+}
